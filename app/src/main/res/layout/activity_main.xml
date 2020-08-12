@@ -27,7 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="160dp"
         android:layout_marginEnd="24dp"
         android:autofillHints="@string/username"
         android:background="@drawable/text_border"
@@ -45,7 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="24dp"
         android:autofillHints="@string/password"
         android:background="@drawable/text_border"
@@ -56,5 +56,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="51dp"
+        android:buttonTint="@color/gray"
+        app:layout_constraintEnd_toStartOf="@+id/sign_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

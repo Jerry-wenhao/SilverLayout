@@ -7,4 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="checkbox_text">checkbox_text</style>
+
+
 </resources>
