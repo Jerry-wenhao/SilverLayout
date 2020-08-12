@@ -7,4 +7,5 @@
     <string name="forget">Forget password?</string>
     <string name="login">Login</string>
     <string name="connect_us">or connect with</string>
+    <string name="facebook">facebook</string>
 </resources>

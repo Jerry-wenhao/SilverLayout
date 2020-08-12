@@ -134,12 +134,27 @@
         android:text="@string/connect_us"
         android:textColor="@color/remember"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/attention"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.628"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/attention"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <ImageButton
+        android:id="@+id/facebook_btn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/button_shape"
+        android:contentDescription="@string/facebook"
+        android:src="@drawable/facebook_graph"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
