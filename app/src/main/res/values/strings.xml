@@ -8,4 +8,5 @@
     <string name="login">Login</string>
     <string name="connect_us">or connect with</string>
     <string name="facebook">facebook</string>
+    <string name="signup">Sign Up with E-mail</string>
 </resources>

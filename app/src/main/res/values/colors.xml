@@ -9,4 +9,7 @@
     <color name="login_text">#FFFEFE</color>
     <color name="login_button">#3B5998</color>
     <color name="twitter">#55ACEE</color>
+    <color name="sign_up">#FFFFFF</color>
+    <color name="signup_text_color">#3B5998</color>
+    <color name="connect">#979797 </color>
 </resources>
