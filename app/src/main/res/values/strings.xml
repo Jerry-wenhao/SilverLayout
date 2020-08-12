@@ -6,4 +6,5 @@
     <string name="remember">Remember me</string>
     <string name="forget">Forget password?</string>
     <string name="login">Login</string>
+    <string name="connect_us">or connect with</string>
 </resources>
